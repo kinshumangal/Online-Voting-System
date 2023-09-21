@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg10"
+    tools:context=".candidate.AddPlansFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="ADD YOUR PARTY HERE" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/partySelect"
+            android:layout_width="148dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewParty"
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/clickimage"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="ADD YOUR MANIFESTO HERE" />
+    <EditText
+        android:id="@+id/addPlans123"
+        android:layout_width="350dp"
+        android:layout_marginLeft="35dp"
+        android:layout_height="125dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Write your plans here."
+        android:gravity="start|top"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/square"
+        android:inputType="textMultiLine" />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:text="ADD"
+        android:layout_gravity="center"
+        android:id="@+id/addPlansBtn"/>
+</LinearLayout>

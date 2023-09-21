@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/viewfeedback"
+        android:title="Feedback"
+        android:icon="@drawable/baseline_feedback_24"/>
+    <item
+        android:id="@+id/viewTC"
+        android:title="@string/t_c"
+        android:icon="@drawable/baseline_note_alt_24"/>
+    <item
+        android:id="@+id/adminprofile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_user"/>
+</menu>

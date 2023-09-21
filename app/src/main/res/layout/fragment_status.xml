@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    android:padding="10dp"
+    tools:context=".user.StatusFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="left"
+        tools:ignore="MissingConstraints">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/votebg"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="45dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/square2"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name "
+            android:paddingStart="10dp"
+            android:textColor="#434141"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/statusName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:padding="10dp"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:gravity="bottom"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/square2"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:paddingStart="10dp"
+            android:textColor="#434141"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/statusStatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Not Voted"
+            android:padding="10dp"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:gravity="bottom"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/square2"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vote_count"
+            android:paddingStart="10dp"
+            android:textColor="#434141"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/statusCount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:padding="10dp"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:gravity="bottom"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+</LinearLayout>

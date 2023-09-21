@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="Add User"
+            android:icon="@drawable/baseline_user"
+            android:id="@+id/adduser1"/>
+        <item
+            android:title="Add Candidates"
+            android:icon="@drawable/baseline_feedback_24"
+            android:id="@+id/addpoll"/>
+        <item
+            android:title="Add Information"
+            android:icon="@drawable/baseline_note_alt_24"
+            android:id="@+id/addInfo"/>
+        <item
+            android:title="Add Poll"
+            android:icon="@drawable/baseline_note_alt_24"
+            android:id="@+id/addContest"/>
+        <item
+            android:title="Results"
+            android:icon="@drawable/baseline_user"
+            android:id="@+id/results"/>
+        <item
+            android:title="Sign Out"
+            android:id="@+id/signout"
+            android:icon="@drawable/baseline_logout_24"/>
+
+
+
+    </group>
+
+</menu>

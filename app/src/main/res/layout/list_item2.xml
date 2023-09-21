@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    >
+
+    <TextView
+        android:id="@+id/rv_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Name"
+        android:background="#CCCACA"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/rv_aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_Name"
+        android:layout_margin="10dp"
+        android:background="#F6F4F4"
+        android:text="Aadhar Number"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/border2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black"/>
+
+
+</RelativeLayout>

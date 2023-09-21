@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Voting poll</string>
+    <string name="edit">edit</string>
+    <string name="name">Name</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="status">Status</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_user">ADD USER</string>
+    <string name="add_poll">ADD POLL</string>
+    <string name="add_information">ADD INFORMATION</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scrolltext">Scroll Test</string>
+    <string name="must_read_all_instructions">Must read all instructions</string>
+    <string name="accept_terms_conditions">Accept terms conditions</string>
+    <string name="click_here_to_vote">click here to vote</string>
+    <string name="VOTE">VOTE</string>
+    <string name="add_terms_and_conditions">ADD TERMS AND CONDITIONS</string>
+    <string name="terms_and_conditions">TERMS AND CONDITIONS</string>
+    <string name="add_user1">ADD USER</string>
+    <string name="t_c"><![CDATA[T & C]]></string>
+
+</resources>
